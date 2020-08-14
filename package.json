@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --config webpack.dev.js",
-    "buid": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "Agust Rinaldo Kurniawan",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
